@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the Paris Olympics 2024. Stay updated with the latest news, events, and athlete profiles.">
+    <meta name="keywords" content="Paris, Olympics, 2024, sports, events">
+    <title>Paris Olympics 2024</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background: #fff;
+        }
+
+        .header {
+            background-color: red;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .marquee-container {
+            border: 2px solid red;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: #f8f6ff;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+
+        .marquee {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scroll 10s linear infinite;
+        }
+
+        @keyframes scroll {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        .content {
+            background-color: #fffs;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Olympics 2024</h1>
+    </header>
+
+    <div class="container">
+        <div class="marquee-container" aria-live="polite">
+            <div class="marquee">
+                <h2>Welcome to the Paris Olympics 2024</h2>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>About the Olympics</h2>
+            <p>The Paris Olympics 2024 will be a celebration of sports, culture, and unity. Athletes from around the world will compete in various events, showcasing their skills and determination.</p>
+
+            <h2>Event Schedule</h2>
+            <p>Stay tuned for the event schedule, which will be released closer to the games. Make sure to mark your calendars!</p>
+
+            <h2>Get Involved</h2>
+            <p>Want to be part of the excitement? Learn how you can volunteer or attend the events. Check our website for more information.</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
